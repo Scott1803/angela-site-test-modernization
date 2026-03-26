@@ -1,19 +1,21 @@
 <script setup lang="ts">
+const base = import.meta.env.BASE_URL
+
 const services = [
   {
-    icon: '/images/icon-gespraech.png',
+    icon: `${base}images/icon-gespraech.png`,
     title: 'Psychologische Beratung',
     desc: 'Individuelle Beratung bei beruflicher Neuorientierung, Coaching für Führungskräfte und Mediation zur Konfliktlösung.',
     link: '/leistungen#beratung',
   },
   {
-    icon: '/images/icon-medaille.png',
+    icon: `${base}images/icon-medaille.png`,
     title: 'Sprechstunde Psyche',
     desc: 'Unterstützung bei Stress, Burnout, Konflikten am Arbeitsplatz, Depression, Ängsten und Beziehungsproblemen.',
     link: '/leistungen#sprechstunde',
   },
   {
-    icon: '/images/icon-team.png',
+    icon: `${base}images/icon-team.png`,
     title: 'Schulungen & Seminare',
     desc: 'Teambuilding, Kommunikation und praxisorientiertes Training in Kleingruppen. Maßgeschneiderte Weiterbildung.',
     link: '/leistungen#schulungen',

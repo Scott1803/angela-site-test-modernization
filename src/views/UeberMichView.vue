@@ -3,6 +3,8 @@ import { useReveal } from '../composables/useReveal'
 
 useReveal()
 
+const base = import.meta.env.BASE_URL
+
 const qualifications = [
   'Systemische Beraterin',
   'Fachpsychologin für Verkehrspsychologie',
@@ -25,7 +27,7 @@ const qualifications = [
             <p class="about-hero__subtitle">Diplom-Psychologin</p>
           </div>
           <div class="about-hero__image reveal">
-            <img src="/images/portrait.jpg" alt="Angela Einicke" />
+            <img :src="`${base}images/portrait.jpg`" alt="Angela Einicke" />
             <div class="about-hero__image-accent"></div>
           </div>
         </div>

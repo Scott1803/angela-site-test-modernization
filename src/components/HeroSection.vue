@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 
+const base = import.meta.env.BASE_URL
 const heroLoaded = ref(false)
 
 onMounted(() => {
@@ -13,7 +14,7 @@ onMounted(() => {
 <template>
   <section class="hero">
     <div class="hero__bg">
-      <img src="/images/hero-bg.jpg" alt="" class="hero__img" />
+      <img :src="`${base}images/hero-bg.jpg`" alt="" class="hero__img" />
       <div class="hero__overlay"></div>
     </div>
 
@@ -52,11 +53,11 @@ onMounted(() => {
 
     <!-- Floating glass cards -->
     <div class="hero__float hero__float--1" :class="{ loaded: heroLoaded }">
-      <img src="/images/icon-neuorientierung.png" alt="" />
+      <img :src="`${base}images/icon-neuorientierung.png`" alt="" />
       <span>Beratung</span>
     </div>
     <div class="hero__float hero__float--2" :class="{ loaded: heroLoaded }">
-      <img src="/images/icon-mediation.png" alt="" />
+      <img :src="`${base}images/icon-mediation.png`" alt="" />
       <span>Mediation</span>
     </div>
   </section>

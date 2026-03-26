@@ -3,10 +3,12 @@ import { useReveal } from '../composables/useReveal'
 
 useReveal()
 
+const base = import.meta.env.BASE_URL
+
 const beratungItems = [
-  { icon: '/images/icon-neuorientierung.png', title: 'Berufliche Neuorientierung', desc: 'Begleitung bei beruflichen Veränderungen, Standortbestimmung und Entwicklung neuer Perspektiven.' },
-  { icon: '/images/icon-fuehrungskraefte.png', title: 'Coaching für Führungskräfte', desc: 'Stärkung Ihrer Führungskompetenzen, Entscheidungsfindung und persönlichen Weiterentwicklung.' },
-  { icon: '/images/icon-mediation.png', title: 'Mediation zur Konfliktlösung', desc: 'Professionelle Vermittlung bei Konflikten im beruflichen und privaten Umfeld.' },
+  { icon: `${base}images/icon-neuorientierung.png`, title: 'Berufliche Neuorientierung', desc: 'Begleitung bei beruflichen Veränderungen, Standortbestimmung und Entwicklung neuer Perspektiven.' },
+  { icon: `${base}images/icon-fuehrungskraefte.png`, title: 'Coaching für Führungskräfte', desc: 'Stärkung Ihrer Führungskompetenzen, Entscheidungsfindung und persönlichen Weiterentwicklung.' },
+  { icon: `${base}images/icon-mediation.png`, title: 'Mediation zur Konfliktlösung', desc: 'Professionelle Vermittlung bei Konflikten im beruflichen und privaten Umfeld.' },
 ]
 
 const sprechstundeTopics = [
@@ -36,7 +38,7 @@ const seminarTopics = [
     <!-- Page hero -->
     <section class="page-hero">
       <div class="page-hero__bg">
-        <img src="/images/beratung.jpg" alt="" />
+        <img :src="`${base}images/beratung.jpg`" alt="" />
         <div class="page-hero__overlay"></div>
       </div>
       <div class="container page-hero__content">
@@ -116,7 +118,7 @@ const seminarTopics = [
         </div>
 
         <div class="schulungen-visual reveal reveal-delay-1">
-          <img src="/images/schulungen.jpg" alt="Schulungen" class="schulungen-img" />
+          <img :src="`${base}images/schulungen.jpg`" alt="Schulungen" class="schulungen-img" />
           <div class="schulungen-overlay">
             <div class="schulungen-stat">
               <span class="schulungen-stat__number">15+</span>

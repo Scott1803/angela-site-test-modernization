@@ -1,14 +1,16 @@
 <script setup lang="ts">
+const base = import.meta.env.BASE_URL
+
 const logos = [
-  { src: '/images/logo-amazon.png', alt: 'Amazon' },
-  { src: '/images/logo-db.png', alt: 'Deutsche Bahn' },
-  { src: '/images/logo-daimler.png', alt: 'Daimler' },
-  { src: '/images/logo-galeria.png', alt: 'Galeria' },
-  { src: '/images/logo-ivp.png', alt: 'IVP' },
-  { src: '/images/logo-ifb.png', alt: 'ifb' },
-  { src: '/images/logo-insite.png', alt: 'INSITE' },
-  { src: '/images/logo-waf.png', alt: 'WAF' },
-  { src: '/images/logo-ikae.png', alt: 'IKAE' },
+  { src: `${base}images/logo-amazon.png`, alt: 'Amazon' },
+  { src: `${base}images/logo-db.png`, alt: 'Deutsche Bahn' },
+  { src: `${base}images/logo-daimler.png`, alt: 'Daimler' },
+  { src: `${base}images/logo-galeria.png`, alt: 'Galeria' },
+  { src: `${base}images/logo-ivp.png`, alt: 'IVP' },
+  { src: `${base}images/logo-ifb.png`, alt: 'ifb' },
+  { src: `${base}images/logo-insite.png`, alt: 'INSITE' },
+  { src: `${base}images/logo-waf.png`, alt: 'WAF' },
+  { src: `${base}images/logo-ikae.png`, alt: 'IKAE' },
 ]
 </script>
 

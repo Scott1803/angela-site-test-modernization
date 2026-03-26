@@ -3,6 +3,8 @@ import { useReveal } from '../composables/useReveal'
 
 useReveal()
 
+const base = import.meta.env.BASE_URL
+
 const contactInfo = [
   { icon: 'phone', label: 'Telefon', value: '06151 317027', href: 'tel:06151317027' },
   { icon: 'mobile', label: 'Mobil', value: '0175 5468075', href: 'tel:01755468075' },
@@ -40,7 +42,7 @@ const contactInfo = [
               :class="`reveal-delay-${i + 1}`"
             >
               <div class="contact-item__icon">
-                <img :src="`/images/icon-${item.icon}.svg`" :alt="item.label" />
+                <img :src="`${base}images/icon-${item.icon}.svg`" :alt="item.label" />
               </div>
               <div class="contact-item__body">
                 <span class="contact-item__label">{{ item.label }}</span>
@@ -53,7 +55,7 @@ const contactInfo = [
             <!-- Transport -->
             <div class="transport reveal reveal-delay-4">
               <div class="contact-item__icon">
-                <img src="/images/icon-bus.svg" alt="Bus" />
+                <img :src="`${base}images/icon-bus.svg`" alt="Bus" />
               </div>
               <div class="contact-item__body">
                 <span class="contact-item__label">Öffentliche Verkehrsmittel</span>
