@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-860,0)">
+        <g id="Stecknadel" transform="matrix(4,0,0,4,460,0)">
+            <rect x="100" y="0" width="50" height="50" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="100" y="0" width="50" height="50"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1.96994,0,0,1.96994,-34.5655,-10.8358)">
+                    <path d="M80.882,30.818C80.908,30.858 80.953,30.882 81,30.882C81.048,30.882 81.092,30.858 81.118,30.818C82.106,29.279 89,18.373 89,13.5C89,9.085 85.415,5.5 81,5.5C76.585,5.5 73,9.085 73,13.5C73,18.373 79.894,29.279 80.882,30.818ZM81,10C82.656,10 84,11.344 84,13C84,14.656 82.656,16 81,16C79.344,16 78,14.656 78,13C78,11.344 79.344,10 81,10Z" style="fill:white;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

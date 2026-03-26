@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,0,-714)">
+        <g id="Telephone" transform="matrix(1,0,0,1,-1325,714)">
+            <rect x="1325" y="0" width="200" height="200" style="fill:none;"/>
+            <g transform="matrix(-1.01095,-1.01095,1.14246,-1.14246,667.004,1103.59)">
+                <path d="M185.711,788.78C195.517,787.79 195.758,777.854 197,770.75C200.758,749.253 165.941,739.971 119,740C70.05,740.03 35.332,750.8 41,770.75C42.944,777.593 41.662,787.857 51.45,787.895C51.45,787.895 81.482,785.846 86.549,780.169C90.624,775.604 93.095,764.954 93.095,764.954C109.929,763 126.798,763.109 143.691,764.81C143.691,764.81 148.092,778.392 153.711,781.598C160.714,785.593 185.711,788.78 185.711,788.78Z" style="fill:white;"/>
+            </g>
+        </g>
+    </g>
+</svg>
